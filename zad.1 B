@@ -1,0 +1,14 @@
+# zad.1 B
+print (int (3.0))   #1.
+print(float(3))     #2.
+print(float("3"))   #3.
+print(str(12.4))    #4.
+print(bool(0))      #5.
+
+"""
+1. int(3.0)   = 3,       zamienia liczbę zmiennoprzecinkową na całkowitą (część po przecinku jest obcinana)
+2. float(3)   = 3.0,     zamienia liczbę całkowitą na zmiennoprzecinkową
+3. float("3") = 3.0,     zamienia tekst (string) na liczbę zmiennoprzecinkową
+4. str(12.4)  = "12.4",  zamienia liczbę na tekst (string)
+5. bool(0)    = False,   zamienia liczbę na wartość logiczną, (0 to fałsz, każda inna liczba to prawda)
+"""
