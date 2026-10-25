@@ -1,0 +1,8 @@
+# zad.6 B2
+import random
+km = random.randint(1, 1000)
+print("Długość podróży wynosi:", km, "km")
+sp = float(input("Podaj średnie spalanie samochodu (w litrach na 100km): "))
+cena_paliwa = float(input("Podaj aktualną cenę paliwa: "))
+koszty = km/100 * sp * cena_paliwa
+print(f"Szacowane koszty podróży wynoszą {koszty} zł.")
